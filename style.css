@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(9,121,104);
+    background: linear-gradient(90deg, rgba(9,121,104,1) 0%, rgba(154,230,108,1) 0%, rgba(0,212,255,1) 100%);
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    height: 25rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+}
+
+.car-image {
+    height: 11rem;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+
+}
+
+.card-heading {
+    color: black;
+text-align: center
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hi{
+    width: 8rem;
+    height:2cm;
+    background-color:cornflowerblue;
+
+    
+    
+    
+}
